@@ -1,0 +1,25 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build Lex Program",
+            "type": "shell",
+            "command": "make",
+            "args": [
+                "LEX_FILE=LEX\\ programs/${input:lexFile}"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        }
+    ],
+    "inputs": [
+        {
+            "id": "lexFile",
+            "type": "promptString",
+            "description": "Enter the Lex file name inside 'LEX programs' (e.g., my_lexer.l)"
+        }
+    ]
+}

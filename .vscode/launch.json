@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/home/monk/Documents/GitHub/CSA1408_CD/LEX_programs",
-      "program": "/home/monk/Documents/GitHub/CSA1408_CD/LEX_programs/build/Debug/outDebug",
+      "cwd": "/home/monk/Documents/GitHub/CSA1408_CD/LEX programs",
+      "program": "/home/monk/Documents/GitHub/CSA1408_CD/LEX programs/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
