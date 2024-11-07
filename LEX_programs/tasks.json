@@ -1,0 +1,20 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run Flex",
+            "type": "shell",
+            "command": "flex example.l",
+            "problemMatcher": [],
+            "detail": "Generates lex.yy.c"
+        },
+        {
+            "label": "Compile Lex Program",
+            "type": "shell",
+            "command": "gcc lex.yy.c -lfl -o example",
+            "dependsOn": "Run Flex",
+            "problemMatcher": [],
+            "detail": "Compiles the C code"
+        }
+    ]
+}
